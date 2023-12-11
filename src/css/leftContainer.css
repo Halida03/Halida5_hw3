@@ -1,0 +1,53 @@
+.lCon{
+    padding-right: 150px;
+    width: 1039px;
+}
+.lCon-sort {
+    display: flex;
+    gap: 356px;
+}
+.p-sorted{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.sortP-icon{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.lCon-sort p{
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.p-sorted p{
+    color: var(--Gray, #9095A9);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sortP-icon p{
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sortP-icon{
+    display: flex;
+    padding: 14px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid var(--Gray-Light, #EFF0F2);
+    background: var(--White, #FFF);
+}
