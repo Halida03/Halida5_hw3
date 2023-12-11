@@ -5,7 +5,11 @@
 }
 .App-main{
     display: flex;
-    height: 2333px;
+    height: 2500px;
     padding-left: 150px;
     padding-top: 32px;
+}
+.main-hr{
+    width: 1440px;
+    height: 1px;
 }

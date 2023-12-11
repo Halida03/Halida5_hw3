@@ -5,6 +5,13 @@ import remove from '../assets/remove.svg'
 import keyboard2 from '../assets/keyboard_arrow_up.svg'
 import close from '../assets/close.svg'
 import close2 from '../assets/close 2.svg'
+import ellipse1 from '../assets/Ellipse 57.svg'
+import ellipse2 from '../assets/Ellipse 58.svg'
+import ellipse3 from '../assets/Ellipse 59.svg'
+import ellipse4 from '../assets/Ellipse 60.svg'
+import ellipse5 from '../assets/Ellipse 61.svg'
+import ellipse6 from '../assets/Ellipse 62.svg'
+
 
 const RightContainer = () => {
   return (
@@ -37,7 +44,7 @@ const RightContainer = () => {
             <li>Поло</li>
             <li>Майки</li>
             <li>Худи</li>
-            <li>Свтшоты</li>
+            <li>Свитшоты</li>
             <li>Свитера</li>
             <li>Толствоки</li>
           </ul>
@@ -141,6 +148,46 @@ const RightContainer = () => {
       </div>
 
       <hr className='rCon-line1'/>
+
+      <div className='shoesSize'>
+        <div className='shoesSize-h3-icon'>
+          <h3>Размер обуви</h3>
+          <img src={remove} />
+        </div>
+        <div className='shoesSize-divs'>
+          <div>UE 46</div>
+          <div>EU 45</div>
+          <div>EU 44.5</div>
+          <div>EU 44</div>
+          <div>EU 43</div>
+          <div>EU 42.5</div>
+          <div>EU 42</div>
+          <div>EU 41</div>
+          <div>EU 40</div>
+          <div>EU 39</div>
+        </div>
+      </div>
+
+      <hr className='rCon-line1'/>
+
+      <div className='colors'>
+        <div className='colors-h3-icon'>
+          <h3>Цвета</h3>
+          <img src={remove} />
+        </div>
+        <div className='colors-icons'>
+          <img src={ellipse1} />
+          <img src={ellipse2} />
+          <img src={ellipse3} />
+          <img src={ellipse4} />
+          <img src={ellipse5} />
+          <img src={ellipse6} />
+        </div>
+      </div>
+
+      <hr className='rCon-line1'/>
+
+      <button className='btn-sort'>Сбросить фильтр</button>
     </div>
   )
 }

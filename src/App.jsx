@@ -13,6 +13,7 @@ function App() {
       <LeftContainer/>
       <RightContainer/>
     </div>
+    <hr className='main-hr'/>
     <Footer />
     </>
   )

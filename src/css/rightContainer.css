@@ -2,6 +2,9 @@
     display: flex;
     align-items: center;
 }
+.rCon{
+    width: 350px;
+}
 .rCon-price{
     display: flex;
     flex-direction: column;
@@ -243,6 +246,7 @@
 .rCon-size-icon{
     display: flex;
     gap: 101px;
+    align-items: flex-start;
 }
 .rCon-size-icon h3{
     color: var(--Black, #121720);
@@ -293,6 +297,7 @@
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
+    width: 270px;
 }
 .rCon-sizes2 div{
     display: inline-flex;
@@ -306,4 +311,74 @@
     font-family: PT Root UI, sans-serif;
     font-size: 16px;
     font-weight: 400;
+}
+
+.shoesSize-h3-icon{
+    display: flex;
+    gap: 119px;
+    margin-bottom: 32px;
+}
+.shoesSize-h3-icon h3{
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.shoesSize-divs div{
+    display: inline-flex;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--gray-light-2, #F7F8F9);
+    color: var(--Gray, #9095A9);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.shoesSize-divs{
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: 270px;
+}
+
+.colors-h3-icon{
+    display: flex;
+    gap: 192px;
+    margin-bottom: 32px;
+}
+.colors-h3-icon h3{
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.colors-icons{
+    display: flex;
+    gap: 8px;
+}
+.btn-sort{
+    display: flex;
+    width: 267px;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid var(--Gray-Light, #EFF0F2);
+    background: var(--White, #FFF);
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
